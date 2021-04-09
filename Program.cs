@@ -24,7 +24,7 @@ namespace JurosSimples
             Console.WriteLine();
             Console.WriteLine("---------------------");
 
-            juros = c * i * t *1 /100 ;
+            juros = c * (i / 100) * t ;
             mont = c + juros;
             Console.WriteLine($"\nJuros (R$)....: {juros:N2}");
             Console.WriteLine($"Montante(R$)..: {mont:N2}");
